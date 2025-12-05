@@ -1,4 +1,4 @@
-# Student Access Benefits Portal
+# Student Email Access Benefits
 
 > A comprehensive directory of **90+ free and discounted tech resources** for students pursuing AI, Computer Science, and related fields — including the complete GitHub Student Developer Pack.
 
