@@ -12,28 +12,7 @@
 
 Students often miss out on thousands of dollars worth of free software, cloud credits, and professional tools simply because they don't know these benefits exist. This portal solves that problem by providing a single, searchable directory of all available student benefits.
 
-```
-┌────────────────────────────────────────────────────────────────┐
-│                  STUDENT ACCESS BENEFITS PORTAL                │
-├────────────────────────────────────────────────────────────────┤
-│                                                                │
-│  ┌────────┐┌────────┐┌────────┐┌────────┐┌────────┐┌────────┐ │
-│  │   AI   ││  Dev   ││ Cloud  ││ Design ││Discount││ GitHub │ │
-│  │ Tools  ││ Tools  ││Platform││ Tools  ││ & Deal ││  Pack  │ │
-│  └───┬────┘└───┬────┘└───┬────┘└───┬────┘└───┬────┘└───┬────┘ │
-│      │         │         │         │         │         │      │
-│      ▼         ▼         ▼         ▼         ▼         ▼      │
-│   ┌─────────────────────────────────────────────────────────┐ │
-│   │              90+ Curated Resources                      │ │
-│   │                                                         │  │
-│   │  • Step-by-step activation guides                       │  │
-│   │  • Verification requirements                            │  │
-│   │  • Direct links to student programs                     │  │
-│   │  • Value estimates & duration                           │  │
-│   └─────────────────────────────────────────────────────────┘  │
-│                                                                │
-└────────────────────────────────────────────────────────────────┘
-```
+<img width="1562" height="1032" alt="Screenshot 2025-12-05 at 20 35 59" src="https://github.com/user-attachments/assets/f0209d6b-7c29-49e0-a93a-31d319378c3f" />
 
 ---
 
@@ -49,6 +28,29 @@ Students often miss out on thousands of dollars worth of free software, cloud cr
 | **Responsive** | Works on desktop, tablet, and mobile |
 | **No Backend** | Pure HTML/CSS/JS - fast and privacy-friendly |
 
+
+```
+┌────────────────────────────────────────────────────────────────┐
+│                  STUDENT ACCESS BENEFITS PORTAL                │
+├────────────────────────────────────────────────────────────────┤
+│                                                                │
+│  ┌────────┐┌────────┐┌────────┐┌────────┐┌────────┐┌────────┐  │
+│  │   AI   ││  Dev   ││ Cloud  ││ Design ││Discount││ GitHub │  │
+│  │ Tools  ││ Tools  ││Platform││ Tools  ││ & Deal ││  Pack  │  │
+│  └───┬────┘└───┬────┘└───┬────┘└───┬────┘└───┬────┘└───┬────┘  │
+│      │         │         │         │         │         │       │
+│      ▼         ▼         ▼         ▼         ▼         ▼       │
+│   ┌─────────────────────────────────────────────────────────┐  │
+│   │              90+ Curated Resources                      │  │
+│   │                                                         │  │
+│   │  • Step-by-step activation guides                       │  │
+│   │  • Verification requirements                            │  │
+│   │  • Direct links to student programs                     │  │
+│   │  • Value estimates & duration                           │  │
+│   └─────────────────────────────────────────────────────────┘  │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
+```
 ---
 
 ## Categories
@@ -170,15 +172,15 @@ Most student benefits require verification. Here's how the main verification ser
 ### Option 1: GitHub Pages (Recommended)
 Simply fork this repository and enable GitHub Pages in settings. Your portal will be live at:
 ```
-https://[your-username].github.io/free-ai-credits/
+https://github.com/nicanor-korir/Student-Email-Benefits.git
 ```
 
 ### Option 2: Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/[your-username]/free-ai-credits.git
+git clone https://github.com/nicanor-korir/Student-Email-Benefits.git
 
-# Navigate to directory
+# Navigate to the directory
 cd free-ai-credits
 
 # Open in browser (macOS)
@@ -215,29 +217,6 @@ Contributions are welcome! If you know of a student benefit not listed here:
 3. Include a guide modal with step-by-step instructions
 4. Submit a pull request
 
-### Card Format Example
-```html
-<div class="card" data-search="keywords for search">
-    <div class="card-main">
-        <div class="card-header">
-            <div class="card-logo [category]">[emoji]</div>
-            <span class="card-badge badge-free">BADGE TEXT</span>
-        </div>
-        <h3 class="card-title">Tool Name</h3>
-        <p class="card-description">Brief description of the benefit.</p>
-        <div class="card-tags">
-            <span class="tag">tag1</span>
-            <span class="tag">tag2</span>
-        </div>
-    </div>
-    <div class="card-footer">
-        <span class="card-value">Value description</span>
-        <button class="btn-guide" onclick="openGuide('toolkey')">
-            View Guide →
-        </button>
-    </div>
-</div>
-```
 
 ---
 
@@ -261,10 +240,3 @@ MIT License - feel free to use, modify, and distribute.
 - Research compiled from official student program pages
 - Verification information from SheerID, UNiDAYS, and Student Beans
 - Icons using native emoji for universal compatibility
-
----
-
-<p align="center">
-  <strong>Made for students, by students</strong><br>
-  <sub>Stop paying full price. Start accessing your benefits.</sub>
-</p>
